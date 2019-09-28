@@ -90,7 +90,7 @@ function setUp(){
         cell.value = answers[i];
 
         // permet d'avoir la couleur orange au clic sur un bloc du tableau
-        cell.addEventListener("mouseenter",function(){
+        cell.addEventListener("click",function(){
             // make the application unable to handle clic events when the ready attribute is set to false
             if(ready == false)
             return;
